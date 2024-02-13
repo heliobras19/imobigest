@@ -1,0 +1,58 @@
+.root ul {
+    list-style: none;
+}
+
+.iframeVideo {
+    width: 80%;
+    max-width: 1200px;
+}
+
+
+.title {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.description {
+    font-weight: 350;
+}
+
+.code {
+    font-size: 20px;
+    color: #959595;
+}
+
+
+@media (max-width: 1023px) {
+    .iframeVideo {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .iframeVideo {
+        width: 100%;
+        height: calc(100vw * 52 /100);
+    }
+}
+
+@media (max-width: 426px) {
+    .iframeVideo {
+        width: 100%;
+        height: calc(100vw * 52 /100);
+    }
+}
+
+@media (min-width: 426px) {
+    .iframeVideo {
+        width: 100%;
+        height: calc(100vw * 53 /100);
+    }
+}
+
+@media (min-width: 768px) {
+    .iframeVideo {
+        width: 80%;
+        height: calc(80vw * 50 /100);
+    }
+}

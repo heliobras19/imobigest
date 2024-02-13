@@ -1,0 +1,38 @@
+.root{
+    background-color: #F8F7F3;
+}
+
+.root input,
+.root select,
+.root textarea{
+    border-radius: 0px;
+}
+
+.catalogo_container {
+    padding-top: 50px;
+}
+
+.contato_submit_button {
+    background-color: #000 !important;
+    border-radius: 0px !important;
+    font-size: 13px !important;
+    padding: 10px 0px !important;
+}
+
+@media (max-width: 1024px) {
+    .contato_row {
+        padding-left: 0px;
+    }
+}
+
+.accordionButton {
+    border: 0;
+    color: #000 !important;
+    background-color: #fff !important;
+    background-image: none !important;
+    font-size: 16px;
+}
+
+.accordionItem {
+    border-bottom: 0px;
+}

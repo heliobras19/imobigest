@@ -1,0 +1,13 @@
+.containerEmail {
+    font-size: .85em;
+} 
+.containerText {
+    font-size: 1em;
+} 
+
+.image {
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}

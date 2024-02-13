@@ -1,0 +1,38 @@
+.politica_container {
+    padding-top: 50px;
+}
+
+.politica_breadcrumb {
+    margin-bottom: 15px;
+}
+
+.politica_title {
+    margin-bottom: 110px;
+}
+
+/* Desktop */
+@media (min-width: 1024px) {}
+
+/* Tablet */
+@media (max-width: 1023px) {
+    .politica_breadcrumb {
+        margin-bottom: 45px;
+    }
+
+}
+
+/* Smartphone */
+@media (max-width: 425px) {
+    .politica_container {
+        padding-top: 50px;
+    }
+    
+    .politica_breadcrumb {
+        margin-bottom: 25px;
+    }
+
+    .politica_title {
+        margin: 50px 0px 30px 0px;
+    }
+
+}

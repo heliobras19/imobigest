@@ -1,0 +1,20 @@
+.bannerDesktopItem {
+    width: 100%;
+    height: 560px;
+}
+
+.bannerDesktopItem img {
+    object-fit: cover;
+}
+
+.carouselTitle {
+    font-size: 2.5em;
+}
+
+.carouselSubtitle {
+    font-size: 1.8em;
+}
+
+.carouselCaption{
+    top: 30%
+}

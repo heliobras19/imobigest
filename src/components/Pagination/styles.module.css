@@ -1,0 +1,22 @@
+.pagination {
+
+}
+
+.paginationItem {
+    color: #000;
+    transition: .3s;
+}
+
+.paginationItem:hover,
+.paginationItem:active,
+.paginationItem:focus {
+    color: #000;
+    background: #ccc;
+    transition: .3s;
+}
+
+.pageActive {
+    color: #fff;
+    background: #000;
+    transition: .3s;
+}

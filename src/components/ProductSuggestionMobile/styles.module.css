@@ -1,0 +1,15 @@
+.title {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-weight: 300px;
+}
+
+.description {
+    font-style: italic;
+    font-weight: normal;
+    color: #959595;
+}
+
+.Slide img{
+    object-fit: contain;
+}

@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Nothing You Could Do';
+    src: url('../../fonts/NothingYouCouldDo.woff2') format('woff2'),
+        url('../../fonts/NothingYouCouldDo.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+.nothingYouCouldDo{
+    font-family: 'Nothing You Could Do';
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../../fonts/FuturaBT-Medium.woff2') format('woff2'),
+        url('../../fonts/FuturaBT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../../fonts/FuturaBT-Bold.woff2') format('woff2'),
+        url('../../fonts/FuturaBT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.futura{
+    font-family: 'Futura Md BT';
+}
+
+*{
+    font-family: 'Futura Md BT';
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../../fonts/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../fonts/Poppins-Light.woff2') format('woff2'),
+        url('../../fonts/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+.poppins{
+    font-family: 'Poppins';
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../../fonts/Spectral-Light.woff2') format('woff2'),
+        url('../../fonts/Spectral-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../../fonts/Spectral-Bold.woff2') format('woff2'),
+        url('../../fonts/Spectral-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.spectral{
+    font-family: 'Spectral';
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../../fonts/Spectral-Italic.woff2') format('woff2'),
+        url('../../fonts/Spectral-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+.spectral-italic{
+    font-family: 'Spectral';
+    font-style: italic;
+}

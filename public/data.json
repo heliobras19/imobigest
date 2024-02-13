@@ -1,0 +1,61 @@
+{
+    "faqs": [
+        {
+            "id": 1,
+            "question": "What is the capital of India?",
+            "response": "New Delhi"
+        },
+        {
+            "id": 2,
+            "question": "What is the capital of France?",
+            "response": "Paris"
+        },
+        {
+            "id": "3",
+            "question": "What is the capital of Germany?",
+            "response": "Berlin"
+        }
+    ],
+    "instagram_posts": [
+        {
+            "id": 1,
+            "image_url": "https://www.instagram.com/p/B9YJX9YJZ9I/",
+            "caption": "This is a caption"
+        },
+        {
+            "id": 2,
+            "image_url": "https://www.instagram.com/p/B9YJX9YJZ9I/",
+            "caption": "This is a caption"
+        },
+        {
+            "id": 3,
+            "image_url": "https://www.instagram.com/p/B9YJX9YJZ9I/",
+            "caption": "This is a caption"
+        }
+    ],
+    "twitter_posts": [
+        {
+            "id": 1,
+            "text": "This is a tweet"
+        },
+        {
+            "id": 2,
+            "text": "This is a tweet"
+        },
+        {
+            "id": 3,
+            "text": "This is a tweet"
+        }
+    ],
+    "catalogos": [{ 
+        "data": [{
+            "link": "pdf/catalogo.pdf",
+            "name": "Catálogo de linha própria. !20 páginas.",
+            "image": "/images/catalogos/catalogo_dois.png"
+        },{
+            "link": "pdf/catalogo.pdf",
+            "name": "Catálogo de linha importada. !80 páginas.",
+            "image": "/images/catalogos/catalogo_um.png"
+        }]
+    }]
+}

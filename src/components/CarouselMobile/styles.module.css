@@ -1,0 +1,17 @@
+.carouselTitle {
+    font-size: 2.5em;
+}
+
+.carouselSubtitle {
+    font-size: 1.8em;
+}
+
+.carouselCaption{
+    top: 30%
+}
+
+.bannerMobileItem {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}

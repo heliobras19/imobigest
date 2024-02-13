@@ -1,0 +1,48 @@
+.rootFooterTop {
+    background-color: #F5F5F5;
+}
+
+.line1 {
+    height: 231px;
+}
+
+.columnsLines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.truckIcon{
+    width: 68px;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.handsIcon{
+    width: 68px;
+    height: 41px;
+}
+
+.medalIcon{
+    width: 51px;
+    height: 68px;    
+}
+
+@media (min-width: 992px) {
+    .line1 {
+        height: 120px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .columnsLines {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 991px) {
+    .rootFooterTop {
+        padding: 1em 0;
+    }
+}

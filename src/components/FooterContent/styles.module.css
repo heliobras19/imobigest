@@ -1,0 +1,54 @@
+.root {
+    background-color: #031D0F;
+    color: #FFFFFF;
+    height: 464px;
+}
+
+.content {
+    height: 464px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoPepperone {
+    width: 215px;
+    height: 50px;
+}
+
+.footerInput {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.footerInput::placeholder {
+    color: #fff;
+}
+
+.footerInput:focus {
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+}
+
+.footerSocial {
+    color: #fff;
+}
+
+.footerButton {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.footerButton:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.footerSocial {
+    color: #fff;
+}

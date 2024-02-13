@@ -1,0 +1,30 @@
+.root {
+    width: 320px;
+    margin-bottom: 30px;
+    box-shadow: 0px 20px 30px #d5d5d5;
+}
+
+.root:hover>.cardProductBottom {
+    display: flex;
+}
+
+.containerEmail {
+    overflow: auto !important;
+}
+
+.cardProductBottom button {
+    background-color: transparent;
+    border: none;
+}
+
+.sku {
+    color: #959595;
+}
+
+.imageContainer {
+    position: relative;
+    height: 290px;
+    width: 92%;
+    margin: 0 auto;
+    object-fit: cover;
+}

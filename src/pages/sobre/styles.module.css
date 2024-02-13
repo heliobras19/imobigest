@@ -1,0 +1,30 @@
+.sobre_container {
+    padding-top: 50px;
+
+}
+
+.sobre_breadcrumb {
+    margin-bottom: 15px;
+}
+
+
+/* Desktop */
+@media (min-width: 1024px) {}
+
+/* Tablet */
+@media (max-width: 1023px) {
+    .sobre_breadcrumb {
+        margin-bottom: 25px;
+    }
+}
+
+/* Smartphone */
+@media (max-width: 425px) {
+    .sobre_breadcrumb {
+        margin-bottom: 15px;
+    }
+
+    .sobre_showroom_image {
+        padding: 0px !important;
+    }
+}

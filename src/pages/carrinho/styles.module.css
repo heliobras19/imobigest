@@ -1,0 +1,128 @@
+.cartInput {
+    margin-bottom: 0.4rem;
+}
+
+.inputCartEmail {
+    font-size: 0.9rem;
+    padding: 0.9rem;
+}
+
+.qtdSpan {
+    font-size: 0.8rem;
+    text-transform: lowercase;
+    margin-left: 0.5rem;
+    font-weight: normal;
+}
+
+.spanColor {
+    cursor: pointer;
+}
+
+.colorChoosed {
+    border: 3px solid #000000;
+    cursor: default;
+}
+
+
+@media screen and (max-width: 768px) {
+    .bodyCart {
+        background: #f8f7f3;
+    }
+
+    .table {
+        border: 0;
+    }
+  
+    .table caption {
+        font-size: 1.3em;
+    }
+    
+    .table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    
+    .table tr {
+        border-bottom: 2px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+    
+    .table td {
+        border-bottom: 0 none;
+        display: inline-block;
+        width: 50%;
+        font-size: .8em;
+        padding-top: 25px;
+        position: relative;
+    }
+    .table td a {
+        color: #000;
+        font-size: 1.1em;
+        text-decoration: none;
+    }
+    
+    .table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        position: absolute;
+        height: 20px;
+        width: 100%;
+        top: 0;
+        right: 0;
+        color: #000;
+        text-align: left;
+    }
+    
+    .table td:last-child {
+        border-bottom: 0;
+    }
+
+    .table td.colorTable,
+    .table td.removeTable,
+    .table td.quantityTable {
+        width: 100%;
+    }
+    
+    .table td.removeTable button {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    
+
+    .table td.quantityTable {
+        display: flex;
+    }
+    .table td.quantityTable input {
+        width: 33%;
+    }
+
+    .reference {
+        color: #666;
+    }
+
+    .colorText {
+        font-size: 1.2em;
+        text-transform: uppercase;
+    }
+}
+
+.buttonRemove {
+    color: #000;
+    transition: .3s;
+}
+
+.buttonRemove:hover,
+.buttonRemove:focus {
+    color: #999;
+    transition: .3s;
+}
+  

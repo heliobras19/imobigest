@@ -1,0 +1,87 @@
+.row {
+    height: 80px;
+}
+
+.row div {
+    height: inherit;
+}
+
+
+
+.buttonMenu {
+    border: none;
+}
+
+.buttonClose {
+    background: transparent;
+}
+
+.offcanvas {
+    margin-top: 80px;
+}
+
+.offcanvas div button {
+    border: 0px;
+}
+
+.navigationList {
+    list-style: none;
+    font-weight: 600;
+}
+
+.navigationList li a {
+    border: none;
+}
+
+.loginForm input,
+.btnLogin {
+    border-radius: 0px;
+}
+
+.loginForm div div button,
+.loginForm div div button span {
+    background-color: transparent;
+    border: none;
+}
+
+.passwordField {
+    border: 1px solid #dee2e6;
+}
+
+.passwordField input {
+    border: 0px;
+}
+
+.btnClose {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    width: 100px;
+}
+
+.listLink {
+    border: 0 none;
+    text-align: left;
+    width: 100%;
+}
+
+.sublistLink {
+    width: 100%;
+    text-align: left;
+    border: 0 none;
+}
+
+.listLink:hover,
+.listLink:active,
+.listLink:focus,
+.sublistLink:hover,
+.sublistLink:active,
+.sublistLink:focus {
+    background: transparent !important;
+    color: #000 !important;
+}
+
+.dropMenuMobile {
+    height: 300px;
+    overflow: auto;
+}

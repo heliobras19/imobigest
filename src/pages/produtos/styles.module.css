@@ -1,0 +1,57 @@
+.selectOrder{
+    border-radius: 0px;
+}
+
+.paginationItem{
+    color: #000;
+}
+
+.paginationItemActive,
+.paginationItem:hover{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.colorFilter button {
+    border: 0;
+    background: transparent;
+    border: 0;
+    margin: 0px; 
+    padding: 0px;
+}
+.colorFilter button span {
+    min-height: 30px;
+    min-width: 30px;
+    border-radius: 50%;
+    border: 1px #ccc solid;
+    display: inline-block;
+    transition: .3s;
+}
+.colorFilter button span:hover, 
+.colorFilter button span:focus {
+    border: 3px #333 solid;
+    transition: .3s;
+}
+
+.categoryMenu {
+    height: 500px;
+    overflow: auto;
+}
+
+.categoryMenu::-webkit-scrollbar {
+    width: 3px;
+    height: 3px; /* A altura só é vista quando a rolagem é horizontal */
+}
+  
+.categoryMenu::-webkit-scrollbar-track {
+    background: transparent;
+    padding: 2px;
+}
+  
+.categoryMenu::-webkit-scrollbar-thumb {
+    background-color: #333;
+}
+
+.breadcrumbs {
+    border: 1px red solid;
+}

@@ -1,0 +1,36 @@
+.root {
+    background-color: #000;
+    color: #959595;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.line3 a {
+    color: #959595;
+}
+
+.line3LastColumn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footerLogo {
+    width: 35px;
+    height: 35px;
+}
+
+@media (max-width: 992px) {
+    .root {
+        height: 125px;
+    }
+
+    .dev {
+        display: none;
+    }
+
+    .line3LastColumn {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,37 @@
+.termos_container {
+    padding-top: 50px;
+}
+
+.termos_breadcrumb {
+    margin-bottom: 15px;
+}
+
+.termos_title {
+    margin-bottom: 110px;
+}
+
+/* Desktop */
+@media (min-width: 1024px) {}
+
+/* Tablet */
+@media (max-width: 1023px) {
+    .termos_breadcrumb {
+        margin-bottom: 45px;
+    }
+
+}
+
+/* Smartphone */
+@media (max-width: 426px) {
+    .termos_container {
+        padding-top: 50px;
+    }
+    
+    .termos_breadcrumb {
+        margin-bottom: 25px;
+    }
+
+    .termos_title {
+        margin: 50px 0px 30px 0px;
+    }
+}

@@ -1,0 +1,27 @@
+.title {
+    font-weight: 650;
+    font-size: 16px;
+}
+
+.description {
+    font-style: italic;
+    font-weight: normal;
+    color: #959595;
+}
+
+.container{
+    background-color: #fff;
+    height: 515px;
+    width: 100%;
+    display: block;
+}
+
+.serviceImage {
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+.serviceImage img {
+    object-fit: cover;
+}

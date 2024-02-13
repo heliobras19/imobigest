@@ -1,0 +1,65 @@
+
+.code{
+    font-size: 13px;
+    color: #666;
+}
+
+.root {
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 2px 5px;
+    color: #fff;
+    background: #56b202;
+    font-size: .7em;
+    border-radius: 3px;
+    text-transform: uppercase;
+    z-index: 99;
+}
+
+.containerLinks a{
+    width: auto;  
+    font-size: .8em; 
+}
+
+.containerTitleColors span{
+    width: auto;
+}
+
+.root:hover>.cardProductBottom {
+    display: flex;
+}
+
+.containerEmail {
+    overflow: auto !important;
+}
+
+.cardProductBottom button {
+    background-color: transparent;
+    border: none;
+}
+
+.sku {
+    color: #959595;
+}
+
+.description {
+    height: 90px;
+    overflow: auto;
+}
+
+.descriptionText {
+    font-size: .9em;
+}
+
+.productColor {
+    height: 30px;
+    width: 30px;
+    border-radius: 50% ;
+    background-color: transparent;
+    border: 0 none;
+}
